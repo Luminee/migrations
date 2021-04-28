@@ -1,0 +1,23 @@
+<?php
+
+namespace {$Namespace};
+
+use Luminee\Migrations\Base\MigrationBaseModel;
+
+class {$Class} extends MigrationBaseModel
+{
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function run()
+	{
+	    $this->create('{$Table}')->engine('InnoDB');
+        $this->increments('id');
+
+        $this->timestamps();
+
+	}
+
+}

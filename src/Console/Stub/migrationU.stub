@@ -1,0 +1,20 @@
+<?php
+
+namespace {$Namespace};
+
+use Luminee\Migrations\Base\MigrationBaseModel;
+
+class {$Class} extends MigrationBaseModel
+{
+	/**
+	 * Run the migrations.
+	 *
+	 * @return void
+	 */
+	public function run()
+	{
+	    $this->table('{$Table}');
+
+	}
+
+}

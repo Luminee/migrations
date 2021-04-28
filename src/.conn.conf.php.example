@@ -1,0 +1,21 @@
+<?php
+
+return [
+    'project' => [
+        'dev' => [
+            'host' => '',
+            'database' => '',
+            'username' => '',
+            'password' => '',
+        ],
+        'test' => [
+            ''
+        ],
+    ],
+
+    'project2' => [
+        'dev' => [
+            ''
+        ],
+    ],
+];

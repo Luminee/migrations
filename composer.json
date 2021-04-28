@@ -1,0 +1,28 @@
+{
+  "name": "luminee/migrations",
+  "description": "Make Module Migrations & Seeders & Scripts by projects & connections",
+  "type": "library",
+  "keywords": [
+    "migrations",
+    "artisan",
+    "seeders",
+    "multi-project",
+    "multi-conn"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "LuminEe",
+      "email": "1123462990@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Luminee\\Migrations\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1"
+  }
+}
