@@ -7,13 +7,18 @@ use Luminee\Migrations\Base\MigrationBaseModel;
 class {$Class} extends MigrationBaseModel
 {
 	/**
+     * @var string
+     */
+    protected $table = '{$Table}';
+
+	/**
 	 * Run the migrations.
 	 *
 	 * @return void
 	 */
 	public function run()
 	{
-	    $this->table('{$Table}');
+	    $this->table();
 
 	}
 

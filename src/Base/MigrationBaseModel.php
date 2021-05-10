@@ -66,6 +66,8 @@ class MigrationBaseModel
 
     protected $localIte = 0;
 
+    protected $table;
+
     /**
      * The database connection instance.
      *
